@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>普通用户页面</title>
+</head>
+<body>
+	<p>[[${user}]]</p>
+	<p><span th:text="${user}"> </span></p>
+	<p>恭喜你进入用户页面</p>
+	<a th:href="@{/logout}">注销</a>
+</body>
+</html>
