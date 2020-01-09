@@ -2,7 +2,9 @@ package com.tsc.util;
 
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.util.ByteSource;
-
+/**
+*MD5º”√‹
+*/
 public class MD5Utils {
 
 	public static String encrty(String username, String password) {
